@@ -1,3 +1,15 @@
-baseurl = "http://yourSiteHere/"
+baseurl = "https://lesv.github.io/"
+theme = "journal"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Les's digital explorations"
+destination = "../lesv.github.io"
+
+[params]
+  description = "mostly digital explorations"
+  AuthorName = "Les Vogel"
+  
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  GitHubHUser = "lesv"
+  TwitterHandle= "lesv"
